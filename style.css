@@ -1,0 +1,78 @@
+/* Animated gradient from */
+.gradient-background {
+    background: linear-gradient(254deg,#0068ca,#143759,#e2e2e2);
+    background-size: 400% 400%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+ #gradient{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ body {
+    background-color: #f4f0e6;
+ }
+
+  h1 {
+    text-align: center; 
+    color: #f4f0e6;
+    font-family: "STIX Two Text", serif;;
+    /* font-family: "Poppins", sans-serif; */
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .h1text{
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+  header {
+    margin-top: 5vh;
+    
+  }
+
+  header .header-text {
+  /* font-family: "STIX Two Text", serif; */
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 420;
+  font-style: normal;
+  font-size: 2.3vh;
+  height: 10vh;
+  color: #8e8358;
+
+  }
+
+  header .header-text:hover {
+    
+    color: #8e8358;
+    text-decoration: underline #d6c59d;
+  }
+
+  header .header-text:active{
+    color: #957186; 
+  }
+  
+
+  .logo{
+    max-width: 35vh;
+    justify-items: left;
+  }
+
