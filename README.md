@@ -9,3 +9,6 @@
 | Example Color |  #e2e2e2 |
 
 ![Color Scheme](assets/images/palettealm.png)
+
+
+icons: spa  map
